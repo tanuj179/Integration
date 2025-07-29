@@ -1,0 +1,17 @@
+{
+  "name": "zapier-integration",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest --testTimeout 10000"
+  },
+  "dependencies": {
+    "zapier-platform-core": "17.4.0",
+    "ironaai": "file:../irona-node-sdk"
+  },
+  "devDependencies": {
+    "jest": "^29.6.0"
+  },
+  "private": true,
+  "main": "index.js"
+}
